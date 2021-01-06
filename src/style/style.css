@@ -1,0 +1,39 @@
+:root{
+    --red: #e50914;
+    --black: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: var(--black);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+header .brand{
+    margin: 1rem;
+    color: var(--red);
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header nav a{
+    color: #aaaaaa;
+    margin-right: .7rem;
+}
+
+header nav a:hover{
+    color: #ffffff;
+}
