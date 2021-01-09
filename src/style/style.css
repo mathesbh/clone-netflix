@@ -101,6 +101,8 @@ main .btn i {
 
     main .btn{
         margin-bottom: 1rem;
+        display: flex;
+        width: 55%;
     }
 }
 
