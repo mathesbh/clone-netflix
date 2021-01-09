@@ -91,3 +91,21 @@ main .btn i {
 .carousel-movies img{
     cursor: pointer;
 }
+
+@media screen and (max-width: 490px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.8rem;
+    }
+
+    main .btn{
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 800px){
+    main .description{
+        width: 60%;
+    }
+}
